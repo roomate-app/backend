@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@auth/core": "^0.34.2",
+    "cookie-parser": "^1.4.6",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "express": "^4.19.2",
+    "masto": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  },
+  "type": "module"
+}
